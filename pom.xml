@@ -120,6 +120,11 @@
             <artifactId>metrics-jcache</artifactId>
         </dependency>
         <dependency>
+		<groupId>com.github.briandilley.jsonrpc4j</groupId>
+		<artifactId>jsonrpc4j</artifactId>
+		<version>1.5.2</version>
+	    </dependency>
+        <dependency>
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-jvm</artifactId>
         </dependency>

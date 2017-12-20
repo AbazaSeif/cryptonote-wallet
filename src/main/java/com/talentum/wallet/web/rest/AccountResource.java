@@ -79,6 +79,12 @@ public class AccountResource {
             throw new InternalServerErrorException("No user was found for this reset key");
         }
     }
+    
+    @GetMapping('/getStatus')
+    @Timed
+    public String getStatus(HttpServletRequest request) {
+        log.debug("REST request to check the status of the JSON RPC Blockchain")
+    }
 
     /**
      * GET  /authenticate : check if the user is authenticated, and return its login.
