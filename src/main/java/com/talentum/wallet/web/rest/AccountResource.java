@@ -80,11 +80,7 @@ public class AccountResource {
         }
     }
     
-    @GetMapping('/getStatus')
-    @Timed
-    public String getStatus(HttpServletRequest request) {
-        log.debug("REST request to check the status of the JSON RPC Blockchain")
-    }
+   
 
     /**
      * GET  /authenticate : check if the user is authenticated, and return its login.
